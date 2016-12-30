@@ -1,0 +1,22 @@
+.unexploded {
+  background-image: url("img/simcity.jpg");
+}
+#box {
+  text-align: center;
+  margin:auto;
+}
+#resetButton {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+h2 {
+  color:red;
+  margin: 0;
+}
+#tight {
+  background-color: black;
+  display:inline-block;
+  padding: 25px;
+  margin-top: 10%;
+}

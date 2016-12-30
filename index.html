@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Sim City Bomb Squad</title>
     <link rel="stylesheet" href="style.css">
     <script src="bomb.js"></script>
-  </head>
-  <body class="unexploded">
-  </body>
+</head>
+
+<body class="unexploded">
+    <div id="box">
+        <div id="tight">
+            <h2 id="timer">30</h2>
+            <img id="blue" class="wires" src="img/uncut-blue-wire.png">
+            <img id="green" class="wires" src="img/uncut-green-wire.png">
+            <img id="red" class="wires" src="img/uncut-red-wire.png">
+            <img id="white" class="wires" src="img/uncut-white-wire.png">
+            <img id="yellow" class="wires" src="img/uncut-yellow-wire.png">
+            <br>
+            <button id="resetButton">Reset</button>
+        </div>
+    </div>
+    <audio id="explode" src="sounds/BldgExplode.wav"></audio>
+    <audio id="cheers" src="sounds/CrowdYay.wav"></audio>
+    <audio id="siren" autoplay loop src="sounds/Siren.wav"></audio>
+    <audio id="electricity" src="sounds/Electricity.wav"></audio>
+    <audio id="success" src="sounds/success.ogg"></audio>
+</body>
+
 </html>
